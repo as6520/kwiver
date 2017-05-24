@@ -152,7 +152,7 @@ set( vital_public_headers
   types/track.h
   types/track_set.h
   types/vector.h
-  types/global_uid.h
+  types/uid.h
 
 )
 
@@ -201,7 +201,7 @@ set( vital_sources
   types/timestamp.cxx
   types/track.cxx
   types/track_set.cxx
-  types/global_uid.cxx
+  types/uid.cxx
 )
 
 kwiver_install_headers(

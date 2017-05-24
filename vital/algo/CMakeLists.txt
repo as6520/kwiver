@@ -41,6 +41,7 @@ set( public_headers
   track_features.h
   train_detector.h
   triangulate_landmarks.h
+  uuid_factory.h
   video_input.h
   )
 
@@ -79,6 +80,7 @@ set( sources
   track_features.cxx
   train_detector.cxx
   triangulate_landmarks.cxx
+  uuid_factory.cxx
   video_input.cxx
 )
 
